@@ -91,99 +91,109 @@
             { "icon": "Twitter", "link": "https://twitter.com/KatanaNSamurai" }
         ]
     },
+    "shogunate": [
+        {
+            "name": "oda",
+            "percent": 5,
+            "qty": 85,
+            "pin": {"x":80,"y":27},
+            "color": "#3FA572",
+            "title": "ODA\nSHOGUNATE", 
+            "description": "oda Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias provident omnis aliquid voluptates iusto facilis commodi veritatis ratione, doloremque est qui nisi quas assumenda excepturi vitae molestiae quisquam mollitia architecto.",
+            "map": "/images/shogunate/oda-map.png", 
+            "image": "/images/shogunate/oda-image.png", 
+            "icon": "/images/shogunate/oda-icon.svg"
+        },
+        {
+            "name": "muromachi",
+            "percent": 5,
+            "qty": 85,
+            "pin": {"x":75,"y":70},
+            "color": "#D06551",
+            "title": "MUROMACHI\nSHOGUNATE", 
+            "description": "muromachi Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias provident omnis aliquid voluptates iusto facilis commodi veritatis ratione, doloremque est qui nisi quas assumenda excepturi vitae molestiae quisquam mollitia architecto.",
+            "map": "/images/shogunate/muromachi-map.png", 
+            "image": "/images/shogunate/muromachi-image.png", 
+            "icon": "/images/shogunate/muromachi-icon.svg"
+        },
+        {
+            "name": "imperial_court",
+            "percent": 10,
+            "qty": 170,
+            "pin": {"x":58,"y":63},
+            "color": "#3F6FBA",
+            "title": "IMPERIAL\nCOURT", 
+            "description": "imperial_court Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias provident omnis aliquid voluptates iusto facilis commodi veritatis ratione, doloremque est qui nisi quas assumenda excepturi vitae molestiae quisquam mollitia architecto.",
+            "map": "/images/shogunate/imperial_court-map.png", 
+            "image": "/images/shogunate/imperial_court-image.png", 
+            "icon": "/images/shogunate/imperial_court-icon.svg"
+        },
+        {
+            "name": "kamakura",
+            "percent": 20,
+            "qty": 340,
+            "pin": {"x":25,"y":35},
+            "color": "#DDAD44",
+            "title": "KAMAKURA\nSHOGUNATE", 
+            "description": "kamakura Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias provident omnis aliquid voluptates iusto facilis commodi veritatis ratione, doloremque est qui nisi quas assumenda excepturi vitae molestiae quisquam mollitia architecto.",
+            "map": "/images/shogunate/kamakura-map.png", 
+            "image": "/images/shogunate/kamakura-image.png", 
+            "icon": "/images/shogunate/kamakura-icon.svg"
+        },
+        {
+            "name": "edo",
+            "percent": 50,
+            "qty": 850,
+            "pin": {"x":30,"y":65},
+            "color": "#7654B5",
+            "title": "EDO\nSHOGUNATE", 
+            "description": "edo Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias provident omnis aliquid voluptates iusto facilis commodi veritatis ratione, doloremque est qui nisi quas assumenda excepturi vitae molestiae quisquam mollitia architecto.",
+            "map": "/images/shogunate/edo-map.png", 
+            "image": "/images/shogunate/edo-image.png", 
+            "icon": "/images/shogunate/edo-icon.svg"
+        }
+    ],
+    "design": [
+        {
+            "name": "clothes",
+            "title": "Change your clothes",
+            "hint": "．Only gas fee is needed.",
+            "data": [
+                { "name": "red", "title": "red\nclothe", "image": "/images/design/red-clothe.png" },
+                { "name": "pink", "title": "pink\nclothe", "image": "/images/design/pink-clothe.png" },
+                { "name": "green", "title": "green\nclothe", "image": "/images/design/green-clothe.png" },
+                { "name": "blue", "title": "blue\nclothe", "image": "/images/design/blue-clothe.png" }
+            ]
+        },
+        {
+            "name": "weapon",
+            "title": "Change your weapon",
+            "hint": "．Only gas fee is needed.",
+            "data": [
+                { "name": "red", "title": "red clothe", "image": "/images/design/red-clothe.png" },
+                { "name": "blue", "title": "blue clothe", "image": "/images/design/blue-clothe.png" }
+            ]
+        },
+        {
+            "name": "mood"
+        },
+        {
+            "name": "xxxx"
+        }
+    ],
     "my_samurai": {
         "samurai": {
             "design": "DESIGN MY SAMURAI"
         },
         "shogunate": {
             "heading": "FIGHT FOR YOUR SHOGUNATE!",
-            "list": [
-                {
-                    "name": "oda",
-                    "percent": 5,
-                    "qty": 85,
-                    "pin": {"x":80,"y":27},
-                    "color": "#3FA572",
-                    "title": "ODA\nSHOGUNATE", 
-                    "image": "/images/shogunate/oda-image.png", 
-                    "icon": "/images/shogunate/oda-icon.svg"
-                },
-                {
-                    "name": "muromachi",
-                    "percent": 5,
-                    "qty": 85,
-                    "pin": {"x":75,"y":70},
-                    "color": "#D06551",
-                    "title": "MUROMACHI\nSHOGUNATE", 
-                    "image": "/images/shogunate/muromachi-image.png", 
-                    "icon": "/images/shogunate/muromachi-icon.svg"
-                },
-                {
-                    "name": "imperial_court",
-                    "percent": 10,
-                    "qty": 170,
-                    "pin": {"x":58,"y":63},
-                    "color": "#3F6FBA",
-                    "title": "IMPERIAL\nCOURT", 
-                    "image": "/images/shogunate/imperial_court-image.png", 
-                    "icon": "/images/shogunate/imperial_court-icon.svg"
-                },
-                {
-                    "name": "kamakura",
-                    "percent": 20,
-                    "qty": 340,
-                    "pin": {"x":25,"y":35},
-                    "color": "#DDAD44",
-                    "title": "KAMAKURA\nSHOGUNATE", 
-                    "image": "/images/shogunate/kamakura-image.png", 
-                    "icon": "/images/shogunate/kamakura-icon.svg"
-                },
-                {
-                    "name": "edo",
-                    "percent": 50,
-                    "qty": 850,
-                    "pin": {"x":30,"y":65},
-                    "color": "#7654B5",
-                    "title": "EDO\nSHOGUNATE", 
-                    "image": "/images/shogunate/edo-image.png", 
-                    "icon": "/images/shogunate/edo-icon.svg"
-                }
-            ],
             "force_value": "FORCE VALUE",
             "about": "About Ego Shogunate"
         },
         "design": {
             "heading": "DESIGN MY SAMURAI!",
             "discount": "XXXX XXX 30% \nUnlock XXXX !",
-            "new_design": "NEW DESIGN",
-            "options": [
-                {
-                    "name": "clothes",
-                    "title": "Change your clothes",
-                    "hint": "．Only gas fee is needed.",
-                    "data": [
-                        { "name": "red", "title": "red\nclothe", "image": "/images/design/red-clothe.png" },
-                        { "name": "pink", "title": "pink\nclothe", "image": "/images/design/pink-clothe.png" },
-                        { "name": "green", "title": "green\nclothe", "image": "/images/design/green-clothe.png" },
-                        { "name": "blue", "title": "blue\nclothe", "image": "/images/design/blue-clothe.png" }
-                    ]
-                },
-                {
-                    "name": "weapon",
-                    "title": "Change your weapon",
-                    "hint": "．Only gas fee is needed.",
-                    "data": [
-                        { "name": "red", "title": "red clothe", "image": "/images/design/red-clothe.png" },
-                        { "name": "blue", "title": "blue clothe", "image": "/images/design/blue-clothe.png" }
-                    ]
-                },
-                {
-                    "name": "mood"
-                },
-                {
-                    "name": "xxxx"
-                }
-            ]
+            "new_design": "NEW DESIGN"
         }
     }
 }
